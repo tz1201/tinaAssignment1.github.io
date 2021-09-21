@@ -1,0 +1,67 @@
+
+
+/* Font */
+
+@font-face {
+  font-family: serif;
+}
+
+/* Text Colors */
+
+/* Background Colors */
+/* background-color:#d71818; */
+
+
+/* Navigation */
+.Navigation-Inner-Linking{
+  display: inline-block;
+  height: 40px;
+  background-color: grey;
+  position: fixed;
+  top:5px;
+}
+
+/* Video */
+.Home-Section{
+  top:40px;
+  position:relative;
+}
+
+img {
+  height: 700px;
+}
+
+a {
+  /* float: left; */
+}
+
+/* Middle the video */
+.Home-Section {
+  position:relative;
+}
+
+.heading{
+  position:relative;
+  top:20px;
+  text-align: center;
+}
+
+.sub-title{
+  text-align: center;
+  size:40px;
+
+}
+
+.Tina-profile{
+  height: 250px;
+  display: inline-inline-block;
+}
+
+.Tina-profile-intro{
+  width: 450px;
+}
+
+.story-content{
+  font-size: 20px;
+  text-align: center;
+}
