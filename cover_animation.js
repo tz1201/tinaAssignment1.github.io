@@ -21,5 +21,5 @@ socket.onmouseover = changeSocketTo;
 socket.onmouseout = changeSocketBack;
 
 function JumpTo(){
-  self.location = "index.html";
+  self.location = "cover.html";
 }
