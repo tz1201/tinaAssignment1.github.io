@@ -47,23 +47,41 @@ headerBox_4.onmouseout = () =>{
 let TinaProfile = document.getElementById("Tina-profile");
 
 function ChangeTinaProfile(){
-  document.getElementById("Tina-profile").style.fontSize='20px';
-  document.getElementById("Tina-profile").style.lineHeight='40px';
-  document.getElementById("Tina-profile").innerHTML="A NYUSH Senior<br/>From Sichuan, China<br/>Major in Data Science<br/>Minoring in IMA and Mathmatics";
+  if(document.getElementById("Tina-profile").style.fontSize=='20px'){
+    document.getElementById("Tina-profile").innerHTML="Tina";
+    document.getElementById("Tina-profile").style.fontSize='1.1em';
+    document.getElementById("Tina-profile").style.lineHeight='160px';
+  }else{
+    document.getElementById("Tina-profile").style.fontSize='20px';
+    document.getElementById("Tina-profile").style.lineHeight='40px';
+    document.getElementById("Tina-profile").innerHTML="A NYUSH Senior<br/>From Sichuan, China<br/>Major in Data Science<br/>Minoring in IMA and Mathmatics";
+  }
 }
 
 let YasminProfile = document.getElementById("Yasmin-profile");
 
 function ChangeYasminProfile(){
-  document.getElementById("Yasmin-profile").style.fontSize='20px';
-  document.getElementById("Yasmin-profile").style.lineHeight='40px';
-  document.getElementById("Yasmin-profile").innerHTML="A NYUAD Junior<br/>From Dubai, UAE<br/>Major in Interactive Media<br/>Minoring in Visual Arts";
+  if(document.getElementById("Yasmin-profile").style.fontSize=='20px'){
+    document.getElementById("Yasmin-profile").innerHTML="Yasmin";
+    document.getElementById("Yasmin-profile").style.fontSize='1.1em';
+    document.getElementById("Yasmin-profile").style.lineHeight='160px';
+  }else{
+    document.getElementById("Yasmin-profile").style.fontSize='20px';
+    document.getElementById("Yasmin-profile").style.lineHeight='40px';
+    document.getElementById("Yasmin-profile").innerHTML="A NYUAD Junior<br/>From Dubai, UAE<br/>Major in Interactive Media<br/>Minoring in Visual Arts";
+  }
 }
 
 let MayaProfile = document.getElementById("Maya-profile");
 
 function ChangeMayaProfile(){
-  document.getElementById("Maya-profile").style.fontSize='20px';
-  document.getElementById("Maya-profile").style.lineHeight='40px';
-  document.getElementById("Maya-profile").innerHTML="A NYUAD Junior<br/>From South Korea<br/>Major in Computer Science<br/>Minoring in IM and Arabic";
+  if(document.getElementById("Maya-profile").style.fontSize=='20px'){
+    document.getElementById("Maya-profile").innerHTML="Maya";
+    document.getElementById("Maya-profile").style.fontSize='1.1em';
+    document.getElementById("Maya-profile").style.lineHeight='160px';
+  }else{
+    document.getElementById("Maya-profile").style.fontSize='20px';
+    document.getElementById("Maya-profile").style.lineHeight='40px';
+    document.getElementById("Maya-profile").innerHTML="A NYUAD Junior<br/>From South Korea<br/>Major in Computer Science<br/>Minoring in IM and Arabic";
+  }
 }
